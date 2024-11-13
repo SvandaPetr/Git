@@ -53,6 +53,9 @@ usethis::use_github()
 #pokud ale dva lide budou uploudovat zmenu ve stejne radce, bude merge comflict. protoze git nevi, jaky z nich je ten aktualni. to se da vyresit tim ze casto commituju, pushuju a pullluju, rozdeluji projekt na mensi casti, ve kterych se da bez problemu pracovat najednou.
 
 
+#pomoci brachnes se dá vytvořit jakoby paralelní versmír, kde můžu dělat změny, commitovat, a pak se dá vice techto bracnches dát dohromady zase s původní verzí.
+#v tý jiný realitě jsou ty soubory separovaně a vůbec nemění ty soubory v původní lince. A muzu je i pushnout, ale i v githubu se vytvoří druhá branch, a i tam to bude separovaný jako na local repository.
+
 
 
 

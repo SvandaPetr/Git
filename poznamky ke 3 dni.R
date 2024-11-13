@@ -39,3 +39,5 @@ usethis::create_from_github(
 #zatím jsme to ukládali na local repository
 #ted, ale potrebujeme synchronizovat local a repote repository usethis::use_github tak synchronizuju git s githubem
 
+
+

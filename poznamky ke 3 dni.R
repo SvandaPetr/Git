@@ -64,6 +64,8 @@ usethis::use_github()
 #a samosebou se daji pull requesty zamitnout. Nebo pridat rewievera a bez jeho schvaleni to nepujde
 # pri mergovani se mi muze opet stat merge problem, kdyz branche nebudou updatovany stejně. To se dá lehce vyšešit v githubu, který mi hezky řekne kde je merge problém a opět vymažu co chci vymazat a nechá mco tam chci nechat.
 
+#pro praci s branches je super pouzivat pr workflow -> prefentace (76/82)
+
 
 
 

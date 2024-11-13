@@ -56,7 +56,7 @@ usethis::use_github()
 #pomoci brachnes se dá vytvořit jakoby paralelní versmír, kde můžu dělat změny, commitovat, a pak se dá vice techto bracnches dát dohromady zase s původní verzí.
 #v tý jiný realitě jsou ty soubory separovaně a vůbec nemění ty soubory v původní lince. A muzu je i pushnout, ale i v githubu se vytvoří druhá branch, a i tam to bude separovaný jako na local repository.
 
-
+#spojovani branchy: spojuje se na githubu. je tam button compare and pull request. a tím se spojují ty branche.je důležitý jaký branch marguju do jakého. mohu toto spojení pojmenovat a napsat komentář co spojuji, proč to spojuji, atd.od te chvile co dam pull request, tak je to živoucí věc a mohu do té timeline dávat více změn a ty se budou v pull requestu zobrazovat. K sjednocení souborů dojde až ve chvíli, kdy je schválena a během toho je lze komentovat ostatními uživateli.
 
 
 

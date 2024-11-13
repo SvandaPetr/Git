@@ -48,3 +48,23 @@ usethis::use_github()
 #commity se jiz nedají menit, ale dají se mazat, nebo vkládat nové commity
 #reposity se dá vytvořit i prvne v githubu a pak naklonovat do rka nebo vytvorit projekt a soubory v rku a pak je propojit s githubem
 #gitingnore soubor: se vytváří automaticky. je to seznm věcí, které má git ignorovat a nemá v nich kontrolovat změny.
+
+#dase v Rstudiu dat i pull a tím se z guthubu, kde třeba někdo udelal commit a ja ji chci u sebe v lokalnim ulozisti, tak dam pull a aktualizuji se mi moje soubory
+#pokud ale dva lide budou uploudovat zmenu ve stejne radce, bude merge comflict. protoze git nevi, jaky z nich je ten aktualni. to se da vyresit tim ze casto commituju, pushuju a pullluju, rozdeluji projekt na mensi casti, ve kterych se da bez problemu pracovat najednou.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

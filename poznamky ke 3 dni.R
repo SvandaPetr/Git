@@ -50,7 +50,8 @@ usethis::use_github()
 #gitingnore soubor: se vytváří automaticky. je to seznm věcí, které má git ignorovat a nemá v nich kontrolovat změny.
 
 #dase v Rstudiu dat i pull a tím se z guthubu, kde třeba někdo udelal commit a ja ji chci u sebe v lokalnim ulozisti, tak dam pull a aktualizuji se mi moje soubory
-#pokud ale dva lide budou uploudovat zmenu ve stejne radce, bude merge comflict. protoze git nevi, jaky z nich je ten aktualni. to se da vyresit tim ze casto commituju, pushuju a pullluju, rozdeluji projekt na mensi casti, ve kterych se da bez problemu pracovat najednou.
+#pokud ale dva lide budou uploudovat zmenu ve stejne radce, bude merge conflict. protoze git nevi, jaky z nich je ten aktualni. to se tomu vyhnout tim ze casto commituju, pushuju a pullluju, rozdeluji projekt na mensi casti, ve kterych se da bez problemu pracovat najednou.
+# kdyz se mi to stane, tak zkrátka vymazu co tam nechci a nechám tam co tam chci nechat.
 
 
 #pomoci brachnes se dá vytvořit jakoby paralelní versmír, kde můžu dělat změny, commitovat, a pak se dá vice techto bracnches dát dohromady zase s původní verzí.
@@ -58,6 +59,10 @@ usethis::use_github()
 
 #spojovani branchy: spojuje se na githubu. je tam button compare and pull request. a tím se spojují ty branche.je důležitý jaký branch marguju do jakého. mohu toto spojení pojmenovat a napsat komentář co spojuji, proč to spojuji, atd.od te chvile co dam pull request, tak je to živoucí věc a mohu do té timeline dávat více změn a ty se budou v pull requestu zobrazovat. K sjednocení souborů dojde až ve chvíli, kdy je schválena a během toho je lze komentovat ostatními uživateli.
 
+#tech branches muze byt vetsi pocet a muze byt vice pullrequestu najednou, takze muzu jednu analyzu dat pull request a dát ji na zkontrolovani vedoucimu. A behem toho co to schvaluje muzu zacit novou branch a pracovat dál a nemusim cekat.
+
+#a samosebou se daji pull requesty zamitnout. Nebo pridat rewievera a bez jeho schvaleni to nepujde
+# pri mergovani se mi muze opet stat merge problem, kdyz branche nebudou updatovany stejně. To se dá lehce vyšešit v githubu, který mi hezky řekne kde je merge problém a opět vymažu co chci vymazat a nechá mco tam chci nechat.
 
 
 

@@ -43,3 +43,8 @@ usethis::use_github()
 
 #pokazdy kdyz udelam zmenu, tak se to ulozi na local repository a git mi da vedet ze jsem x commitu pred remote verzi a musím je syncnout se sipkou - pushnout a commity z local se updatují na remote repository
 
+#v githubu muzu videt ty zmeny jeste lepe nez v Rstudiu a dokonce zobrazovat cele projekty v jakemkoliv case, pred x zmenami. a zobrazuje to ty komenty kterre clovek pridava do commitu.
+
+#commity se jiz nedají menit, ale dají se mazat, nebo vkládat nové commity
+#reposity se dá vytvořit i prvne v githubu a pak naklonovat do rka nebo vytvorit projekt a soubory v rku a pak je propojit s githubem
+#gitingnore soubor: se vytváří automaticky. je to seznm věcí, které má git ignorovat a nemá v nich kontrolovat změny.

@@ -37,7 +37,9 @@ usethis::create_from_github(
 
 
 #zatím jsme to ukládali na local repository
-#ted, ale potrebujeme synchronizovat local a repote repository usethis::use_github tak synchronizuju git s githubem
+#ted, ale potrebujeme synchronizovat local a remote repository usethis::use_github() tak synchronizuju git s githubem
 
+usethis::use_github()
 
+#pokazdy kdyz udelam zmenu, tak se to ulozi na local repository a git mi da vedet ze jsem x commitu pred remote verzi a musím je syncnout se sipkou - pushnout a commity z local se updatují na remote repository
 
